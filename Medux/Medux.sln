@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{671C9150-5DB8-403F-9562-428AF94175B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{7856838F-8D3B-4880-881B-B89B9B86132B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentation", "Apresentation", "{8A1719B8-A598-4DEE-9F80-80E6582A5827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medux.Api", "Medux.Api\Medux.Api.csproj", "{BB7C43D1-F373-4816-AA06-B034B0C88F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medux.Domain", "Medux.Domain\Medux.Domain.csproj", "{432411A0-82F1-4534-8892-C987E01B52B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medux.Application", "Medux.Application\Medux.Application.csproj", "{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medux.Infra", "Medux.Infra\Medux.Infra.csproj", "{DEF0282A-094B-47D1-8A5D-9266D7F33F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB7C43D1-F373-4816-AA06-B034B0C88F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7C43D1-F373-4816-AA06-B034B0C88F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7C43D1-F373-4816-AA06-B034B0C88F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7C43D1-F373-4816-AA06-B034B0C88F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432411A0-82F1-4534-8892-C987E01B52B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432411A0-82F1-4534-8892-C987E01B52B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432411A0-82F1-4534-8892-C987E01B52B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432411A0-82F1-4534-8892-C987E01B52B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB7C43D1-F373-4816-AA06-B034B0C88F53} = {8A1719B8-A598-4DEE-9F80-80E6582A5827}
+		{432411A0-82F1-4534-8892-C987E01B52B6} = {671C9150-5DB8-403F-9562-428AF94175B6}
+		{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0} = {671C9150-5DB8-403F-9562-428AF94175B6}
+		{DEF0282A-094B-47D1-8A5D-9266D7F33F97} = {7856838F-8D3B-4880-881B-B89B9B86132B}
+	EndGlobalSection
+EndGlobal

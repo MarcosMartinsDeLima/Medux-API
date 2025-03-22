@@ -1,0 +1,6 @@
+@Medux.Api_HostAddress = http://localhost:5258
+
+GET {{Medux.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
