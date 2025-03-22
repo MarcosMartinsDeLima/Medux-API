@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{671C9150-5DB8-403F-9562-428AF94175B6}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medux.Application", "Medux.Application\Medux.Application.csproj", "{0E0851B8-8FE4-4EBD-B029-F3D0A63704E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medux.Infra", "Medux.Infra\Medux.Infra.csproj", "{DEF0282A-094B-47D1-8A5D-9266D7F33F97}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{87AC213A-1A81-41C5-B73C-5B3F27446DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF0282A-094B-47D1-8A5D-9266D7F33F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AC213A-1A81-41C5-B73C-5B3F27446DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AC213A-1A81-41C5-B73C-5B3F27446DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AC213A-1A81-41C5-B73C-5B3F27446DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AC213A-1A81-41C5-B73C-5B3F27446DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

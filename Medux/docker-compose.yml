@@ -1,0 +1,22 @@
+services:
+  medux.api:
+    image: ${DOCKER_REGISTRY-}meduxapi
+    build:
+      context: .
+      dockerfile: Medux.Api/Dockerfile
+  
+  mongodb:
+    image: mongo
+    container_name: mongodb-container
+    ports:
+      - "27017:27017"
+    environment:
+      environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+    env_file:
+      - ./Medux.Api/.env
+    volumes:
+      - mongodb_data:/data/db
+volumes:
+  mongodb_data:
