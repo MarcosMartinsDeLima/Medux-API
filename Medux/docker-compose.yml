@@ -11,11 +11,11 @@ services:
     ports:
       - "27017:27017"
     environment:
-      environment:
-      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
-      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=senha
+      - MONGO_INITDB_DATABASE=academia
     env_file:
-      - ./Medux.Api/.env
+      - ./Medux.Api/db.env
     volumes:
       - mongodb_data:/data/db
 volumes:
